@@ -1,5 +1,5 @@
-const player1 = "M";
-const player2 = "P";
+const player1 = "Mario";
+const player2 = "Peach";
 const currPlayer = player1;
 
 const gameOver = false; 
@@ -11,8 +11,4 @@ const currColums = [];
 
 window.onload = function() {
     setGame();
-}
-
-function setGame() {
-    board = [];
-    currColums = [5,5,5,5]
+};
